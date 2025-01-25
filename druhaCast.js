@@ -6,7 +6,7 @@ class druhaCast extends Phaser.Scene{
     create(){
       this.background = this.add.tileSprite(0,0,game.config.width + 272,game.config.height + 272, "background");
       this.otazka = this.add.bitmapText(35,136, "pixelFont", "      YIPEEEEEEEEEE", 30);
-      this.text = this.add.bitmapText(-10,260, "pixelFont", "      (ptm napis plis)", 16);
+      this.text = this.add.bitmapText(-10,260, "pixelFont", "      ", 16);
       this.skrecky = this.add.sprite(game.config.width / 2 - 8,game.config.height - 64, "skrecky");
       this.skrecky.setScale(2);
       this.skrecky.play("skrecky_A");
